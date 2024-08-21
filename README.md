@@ -32,16 +32,23 @@ Exercise 4 (15 points)
 Write a program that allows the user to type in any one-line question and then answers that
 question. The program will not really pay any attention to the question but will simply read the
 question line and discard all that it reads. It always givesone of the following answers:
+
 I'm not sure but I think you will find the answer in Chapter 20.
 
 That's a good question.
 
 If I were you, I would not worry about such things.
+
 That question has puzzled philosophers for centuries.
+
 I don't know. I'm just a machine.
+
 Think about it and the answer will come to you.
+
 I used to know the answer to that question, but I've forgotten it.
+
 The answer can be found in a secret place in the woods.
+
 These answers are stored, one per line, in the file answers.txt. Your program should simply read
 the next answer from the file and write it out as the answer to the question. Allow the user to
 continue asking questions until they choose to exit the program. After your program has read
